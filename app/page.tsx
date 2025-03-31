@@ -23,7 +23,7 @@ export default function Home() {
         </p>
 
         <div className='mt-8 text-lg'>
-          <p>Stay tuned! We're working on something amazing.</p>
+          <p>Stay tuned! We&apos;re working on something amazing.</p>
         </div>
       </div>
     </>
