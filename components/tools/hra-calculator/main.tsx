@@ -388,7 +388,9 @@ export default function HRACalculator() {
                         <Cell fill='#4ade80' /> {/* Green for exempted */}
                         <Cell fill='#ef4444' /> {/* Red for taxable */}
                       </Pie>
-                      <Tooltip formatter={(value) => formatCurrency(value)} />
+                      <Tooltip
+                        formatter={(value) => formatCurrency(value as number)}
+                      />
                       <Legend />
                     </PieChart>
                   </ResponsiveContainer>
